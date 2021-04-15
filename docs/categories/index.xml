@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Even - A super concise theme for Hugo</title>
+    <link>https://mcx797.github.io/categories/</link>
+    <description>Recent content in Categories on Even - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 15 Apr 2021 15:34:04 +0800</lastBuildDate><atom:link href="https://mcx797.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>大四下plan</title>
+      <link>https://mcx797.github.io/categories/%E5%A4%A7%E5%9B%9B%E4%B8%8Bplan/</link>
+      <pubDate>Thu, 15 Apr 2021 15:34:04 +0800</pubDate>
+      
+      <guid>https://mcx797.github.io/categories/%E5%A4%A7%E5%9B%9B%E4%B8%8Bplan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Words</title>
+      <link>https://mcx797.github.io/categories/words/</link>
+      <pubDate>Thu, 15 Apr 2021 15:21:04 +0800</pubDate>
+      
+      <guid>https://mcx797.github.io/categories/words/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
