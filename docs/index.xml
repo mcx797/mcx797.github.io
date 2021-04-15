@@ -28,6 +28,15 @@ It makes use of a variety of open source projects including:
     </item>
     
     <item>
+      <title>D3 Notes</title>
+      <link>https://mcx797.github.io/post/d3/d3/</link>
+      <pubDate>Thu, 15 Apr 2021 17:17:40 +0800</pubDate>
+      
+      <guid>https://mcx797.github.io/post/d3/d3/</guid>
+      <description>D3入门 1.选择元素： 在d3中，所有操作在选择元素的基础上进行 选择元素的函数： d3.select() d3.selectAll() var body = d3.select(&amp;ldquo;body&amp;rdqu</description>
+    </item>
+    
+    <item>
       <title>大四下week8</title>
       <link>https://mcx797.github.io/post/plan/week8/</link>
       <pubDate>Thu, 15 Apr 2021 15:34:04 +0800</pubDate>

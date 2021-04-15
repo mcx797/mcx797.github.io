@@ -1,6 +1,0 @@
-<<<<<<< HEAD
-User-agent: *
-=======
-User-agent: *
-Sitemap: https://mcx797.github.io/sitemap.xml
->>>>>>> 4a6481785875b68de0b87e2ae30cd0a67973c4e8

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web on Even - A super concise theme for Hugo</title>
+    <link>https://mcx797.github.io/categories/web/</link>
+    <description>Recent content in web on Even - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 15 Apr 2021 17:17:40 +0800</lastBuildDate><atom:link href="https://mcx797.github.io/categories/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>D3 Notes</title>
+      <link>https://mcx797.github.io/post/d3/d3/</link>
+      <pubDate>Thu, 15 Apr 2021 17:17:40 +0800</pubDate>
+      
+      <guid>https://mcx797.github.io/post/d3/d3/</guid>
+      <description>D3入门 1.选择元素： 在d3中，所有操作在选择元素的基础上进行 选择元素的函数： d3.select() d3.selectAll() var body = d3.select(&amp;ldquo;body&amp;rdqu</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>D3 Notes - Even - A super concise theme for Hugo</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="马晓晓" /><meta name="description" content="D3入门 1.选择元素： 在d3中，所有操作在选择元素的基础上进行 选择元素的函数： d3.select() d3.selectAll() var body = d3.select(&amp;ldquo;body&amp;rdqu" /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.82.0 with theme even" />
+
+
+<link rel="canonical" href="https://mcx797.github.io/post/d3/d3/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.39a3e01cac9473be1356f3572fcfe34b2e363efabad244a99a40f28a812c837e.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="D3 Notes" />
+<meta property="og:description" content="D3入门 1.选择元素： 在d3中，所有操作在选择元素的基础上进行 选择元素的函数： d3.select() d3.selectAll() var body = d3.select(&ldquo;body&rdqu" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mcx797.github.io/post/d3/d3/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-04-15T17:17:40&#43;08:00" />
+<meta property="article:modified_time" content="2021-04-15T17:17:40&#43;08:00" />
+
+<meta itemprop="name" content="D3 Notes">
+<meta itemprop="description" content="D3入门 1.选择元素： 在d3中，所有操作在选择元素的基础上进行 选择元素的函数： d3.select() d3.selectAll() var body = d3.select(&ldquo;body&rdqu"><meta itemprop="datePublished" content="2021-04-15T17:17:40&#43;08:00" />
+<meta itemprop="dateModified" content="2021-04-15T17:17:40&#43;08:00" />
+<meta itemprop="wordCount" content="1345">
+<meta itemprop="keywords" content="web,d3.js," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="D3 Notes"/>
+<meta name="twitter:description" content="D3入门 1.选择元素： 在d3中，所有操作在选择元素的基础上进行 选择元素的函数： d3.select() d3.selectAll() var body = d3.select(&ldquo;body&rdqu"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Even</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">About</li>
+      </a>
+  </ul>
+
+  
+
+
+</nav>
+
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Even</a>
+</div>
+
+
+
+
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">About</a>
+      </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">D3 Notes</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2021-04-15 </span>
+        <div class="post-category">
+            <a href="/categories/web/"> web </a>
+            </div>
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#d3入门httpsblogcsdnnetqq_34414916articledetails80026029"><a href="https://blog.csdn.net/qq_34414916/article/details/80026029">D3入门</a></a>
+      <ul>
+        <li><a href="#1选择元素">1.选择元素：</a></li>
+        <li><a href="#2绑定数据">2.绑定数据</a>
+          <ul>
+            <li><a href="#datum">datum</a></li>
+            <li><a href="#data">data</a></li>
+          </ul>
+        </li>
+        <li><a href="#3update-enter-exit">3.Update, Enter, Exit</a></li>
+        <li><a href="#4-select">4. select</a></li>
+        <li><a href="#5-坐标轴">5. 坐标轴</a></li>
+        <li><a href="#6-图表动态">6. 图表动态</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <h1 id="d3入门httpsblogcsdnnetqq_34414916articledetails80026029"><a href="https://blog.csdn.net/qq_34414916/article/details/80026029">D3入门</a></h1>
+<h2 id="1选择元素">1.选择元素：</h2>
+<p>在d3中，所有操作在选择元素的基础上进行</p>
+<p>选择元素的函数：</p>
+<p>d3.select()</p>
+<p>d3.selectAll()</p>
+<p>var body = d3.select(&ldquo;body&rdquo;);//选择文档中的body元素
+var svg = body.select(&ldquo;svg&rdquo;);//选择body中的svg元素
+var p = body.selectAll(&ldquo;p&rdquo;);//选择body中所有的p元素
+var p1 = body.select(&ldquo;p&rdquo;);//选择body中第一个p元素</p>
+<h2 id="2绑定数据">2.绑定数据</h2>
+<p>D3.js能将数据绑定到DOM上，即绑定到文档上。P元素和整数5，可以将数据5和p元素绑定到一起</p>
+<p>绑定元素的函数</p>
+<p>data(), 将一个数组绑定到选择集上，数组和选择集各元素绑定：一一对应关系</p>
+<p>datum():将一个数据绑定到所有的选择集上</p>
+<h3 id="datum">datum</h3>
+<script>
+		var str = "is an animal";
+		var p = d3.select("body").selectAll("p");
+		p.datum(str).text(function(d, i){
+			return "第" + i + "个元素" + d;
+		});
+</script>
+<p>通过一个无名函数function(d,i)，访问到绑定的元素。（function(d,i)，这样的函数后面会经常出现，其中d代表数据，也就是与某元素绑定的数据，i代表索引，代表数据的索引，从0开始</p>
+<h3 id="data">data</h3>
+<pre><code>&lt;script&gt;
+	var dataset = [&quot;so cute&quot;, &quot;cute&quot;, &quot;fat&quot;, &quot;big&quot;];
+	var p = d3.select(&quot;body&quot;).selectAll(&quot;p&quot;);
+	p.data(dataset).text(function(d, i){
+        return &quot;第&quot; + i + &quot;个元素&quot; + d;
+	});
+&lt;/script&gt;
+</code></pre>
+<p>与上文相似，增加对应关系</p>
+<h2 id="3update-enter-exit">3.Update, Enter, Exit</h2>
+<p>在使用data()时，例如现在我们有一个数组[3,6,9,12,15],我们可以将数组每一项与一个<p>绑定，但是，现在就有一个问题——数据集个数和选择集个数不匹配怎么办？这样就需要理解Update、Enter、Exit</p>
+<pre><code>例子一：update和enter：数组[3,6,9,12,15]绑定到三个&lt;p&gt;上。可以想象到，数组的最后两个元素没有可以绑定的元素，这时D3会建立两个空的元素与数组最后的两个数据相对于，那么这部分就称为Enter。而有元素与数据对应的部分就称为Update
+
+例子二：exit：如果数组[3]绑定到三个&lt;p&gt;上，可以想象，最后两个&lt;p&gt;没有可绑定的数据，那么没有数据绑定的部分就称为Exit
+
+如下图:
+</code></pre>
+<p><img src="C:%5CUsers%5CMKXDCCDB%5CDesktop%5C%E7%AC%94%E8%AE%B0%5CD3%5Cpic%5C1.png" alt=""></p>
+<script>
+    	var dataset = [3,6,9,12,15];
+    	var p = d3.select("body")
+    		.selectAll("p");
+    	var update = p.data(dataset)//绑定数据,并得到update部分
+    	var enter = update.enter();//得到enter部分
+    	//下面检验是否真的得到
+    	//对于update的处理
+    	update.text(function(d,i){
+    		return "update: "+d+",index: "+i;
+    	})
+    	//对于enter的处理
+    	//注意，这里需要先添加足够多的<p>，然后在添加文本
+    	var pEnter = enter.append("p")//添加足够多的<p>
+    	pEnter.text(function(d,i){
+    		return "enter: "+d+",index: "+i;
+    	})
+</script>
+<script>
+    	var dataset = [3,6];
+    	var p = d3.select("body")
+    		.selectAll("p");
+    	var update = p.data(dataset)//绑定数据,并得到update部分
+    	var exit = update.exit();//得到exit部分
+    	//下面检验是否真的得到
+    	//对于update的处理
+    	update.text(function(d,i){
+    		return "update: "+d+",index: "+i;
+    	})
+    	//对于exit的处理通常是删除 ，但在这里我并没有这么做   	
+    	exit.text(function(d,i){
+    		return "exit";
+    	})
+    	exit.delete("p")
+   </script>
+<h2 id="4-select">4. select</h2>
+<script>
+		var p = d3.select("body").select("p");
+		p.style("color","red");
+		var p1 = d3.select('p.pid')
+		p1.style('color', 'red')
+		var p1 = d3.select("body").select("p").on('click', function(){d3.select(this).style('color', 'blue')});
+</script>
+<h2 id="5-坐标轴">5. 坐标轴</h2>
+<p>坐标轴依托于比例尺（离散/连续）</p>
+<p>graph2, graph3</p>
+<p>scaleBand</p>
+<p>scaleLinear</p>
+<h2 id="6-图表动态">6. 图表动态</h2>
+<p>1..attr(xxx) .transition() .attr(xxx)，transition()表示添加过渡，也就是从前一个属性过渡到后一个属性</p>
+<p>2..duration(2000)过渡时间持续2s</p>
+<p>3..dely(500) 0.4s延迟后进行过渡</p>
+<p>4.ease(d3.easeElasticInOut)表示过渡的方式</p>
+
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">马晓晓</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+        2021-04-15
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/web/">web</a>
+          <a href="/tags/d3.js/">d3.js</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/kaoyan/math/%E5%BC%A0%E5%AE%8730%E8%AE%B2-%E6%95%B0%E5%88%97%E6%9E%81%E9%99%90/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">张宇30讲-数列极限</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        <a class="next" href="/post/plan/week8/">
+            <span class="next-text nav-default">大四下week8</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:your@email.com" class="iconfont icon-email" title="email"></a>
+      <a href="http://localhost:1313" class="iconfont icon-stack-overflow" title="stack-overflow"></a>
+      <a href="http://localhost:1313" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="http://localhost:1313" class="iconfont icon-facebook" title="facebook"></a>
+      <a href="http://localhost:1313" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="http://localhost:1313" class="iconfont icon-google" title="google"></a>
+      <a href="http://localhost:1313" class="iconfont icon-github" title="github"></a>
+      <a href="http://localhost:1313" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="http://localhost:1313" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="http://localhost:1313" class="iconfont icon-douban" title="douban"></a>
+      <a href="http://localhost:1313" class="iconfont icon-pocket" title="pocket"></a>
+      <a href="http://localhost:1313" class="iconfont icon-tumblr" title="tumblr"></a>
+      <a href="http://localhost:1313" class="iconfont icon-instagram" title="instagram"></a>
+      <a href="http://localhost:1313" class="iconfont icon-gitlab" title="gitlab"></a>
+      <a href="http://localhost:1313" class="iconfont icon-bilibili" title="bilibili"></a>
+  <a href="https://mcx797.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2017 - 
+    2021<span class="heart"><i class="iconfont icon-heart"></i></span><span>olOwOlo</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.c99b103c33d1539acf3025e1913697534542c4a5aa5af0ccc20475ed2863603b.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
