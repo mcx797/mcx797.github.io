@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>markdown on Even - A super concise theme for Hugo</title>
+    <link>https://mcx797.github.io/categories/markdown/</link>
+    <description>Recent content in markdown on Even - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 16 Apr 2021 20:03:59 +0800</lastBuildDate><atom:link href="https://mcx797.github.io/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Formular</title>
+      <link>https://mcx797.github.io/post/markdown/formular/</link>
+      <pubDate>Fri, 16 Apr 2021 20:03:59 +0800</pubDate>
+      
+      <guid>https://mcx797.github.io/post/markdown/formular/</guid>
+      <description>数学常用 写法 效果 \vert $ \vert$ \x_n $x_n$ \frac{1}{2} $\frac{1}{2}$ \cdots $\cdots$ \epsilon $\epsilon$ \forall $\forall$ \lim $\lim$ \rightarrow $\rightarrow$ \infty $\infty$ \\|换行 \iff $\iff$ \in $\in $ \notin $\notin$ \le $\le$ \ge $\ge$</description>
+    </item>
+    
+  </channel>
+</rss>
