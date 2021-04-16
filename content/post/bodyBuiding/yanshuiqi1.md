@@ -1,5 +1,5 @@
 ---
-title: "Yanshuiqi1"
+title: "shuiqi1"
 date: 2021-04-16T00:04:05+08:00
 draft: false
 author: 马晓晓
@@ -67,8 +67,6 @@ categories : ["健身"]
 
 颈后臂屈伸 + 反向飞鸟
 
-![](/img/shuaiqi1/13.png)
-
 ![](/img/shuaiqi1/14.png)
 
 
@@ -76,6 +74,4 @@ categories : ["健身"]
 # 超级组6
 
 窄距俯卧撑
-
-![](/img/shuaiqi1/15.png)
 
