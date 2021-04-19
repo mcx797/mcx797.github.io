@@ -202,6 +202,13 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   [markup.goldmark.renderer]
     unsafe = true
 
+ [frontmatter]
+   # 意为，变量 .Date 将会被赋值为 数组中最先找到的的日期值
+   date = ["lastmod", "date", "publishDate"]
+   lastmod = ["lastmod", "date", "publishDate"]
+   publishDate = ["publishDate", "date"]
+   expiryDate = ["expiryDate"]
+
 # 将下面这段配置取消注释可以使 hugo 生成 .md 文件
 # Uncomment these options to make hugo output .md files.
 #[mediaTypes]
