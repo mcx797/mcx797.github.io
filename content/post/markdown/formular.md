@@ -27,6 +27,24 @@ categories: ["工具", "markdown"]
 |\notin|$\notin$|
 |\le|$\le$|
 |\ge|$\ge$|
+|\sum_{n=1}^na_n|$\sum_{n=1}^na_i$|
+|\sqrt{2}|$\sqrt{2}$|
+|\begin{cases}<br />\begin{aligned}
+x + 2y &= 1\\
+3x - y &= 5
+\end{aligned}
+\end{cases}|$\begin{cases}\begin{aligned} x + 2y &= 1\\
+3x - y &= 5
+\end{aligned}
+\end{cases}$|
+|A = \begin{matrix}  a & b\\ c & d \end{matrix}|$A = \begin{matrix}a & b\\
+c & d
+\end{matrix}$|
+|C = \begin{vmatrix}<br/>a & b\\
+c & d
+\end{vmatrix}|$C = \begin{vmatrix}a & b\\
+c & d
+\end{vmatrix}$|
 |||
 |||
-|||
+
