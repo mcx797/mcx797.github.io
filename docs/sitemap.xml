@@ -10,14 +10,49 @@
   
   <url>
     <loc>https://mcx797.github.io/</loc>
-    <lastmod>2021-04-19T09:17:36+08:00</lastmod>
+    <lastmod>2021-04-19T20:24:30+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>2</priority>
+  </url>
+  
+  <url>
+    <loc>https://mcx797.github.io/tags/math/</loc>
+    <lastmod>2021-04-19T20:24:30+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>2</priority>
   </url>
   
   <url>
     <loc>https://mcx797.github.io/post/</loc>
-    <lastmod>2021-04-19T09:17:36+08:00</lastmod>
+    <lastmod>2021-04-19T20:24:30+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>2</priority>
+  </url>
+  
+  <url>
+    <loc>https://mcx797.github.io/tags/</loc>
+    <lastmod>2021-04-19T20:24:30+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>2</priority>
+  </url>
+  
+  <url>
+    <loc>https://mcx797.github.io/tags/%E7%BA%BF%E4%BB%A3/</loc>
+    <lastmod>2021-04-19T20:24:30+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>2</priority>
+  </url>
+  
+  <url>
+    <loc>https://mcx797.github.io/tags/%E8%80%83%E7%A0%94/</loc>
+    <lastmod>2021-04-19T20:24:30+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>2</priority>
+  </url>
+  
+  <url>
+    <loc>https://mcx797.github.io/post/kaoyan/math/%E6%9D%8E%E6%B0%B8%E4%B9%90%E5%9F%BA%E7%A1%80/%E8%A1%8C%E5%88%97%E5%BC%8F/</loc>
+    <lastmod>2021-04-19T20:24:30+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>2</priority>
   </url>
@@ -59,13 +94,6 @@
   
   <url>
     <loc>https://mcx797.github.io/categories/markdown/</loc>
-    <lastmod>2021-04-16T20:03:59+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>2</priority>
-  </url>
-  
-  <url>
-    <loc>https://mcx797.github.io/tags/</loc>
     <lastmod>2021-04-16T20:03:59+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>2</priority>
@@ -135,13 +163,6 @@
   </url>
   
   <url>
-    <loc>https://mcx797.github.io/tags/math/</loc>
-    <lastmod>2021-04-15T19:25:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>2</priority>
-  </url>
-  
-  <url>
     <loc>https://mcx797.github.io/tags/%E5%BC%A0%E5%AE%8730%E8%AE%B2/</loc>
     <lastmod>2021-04-15T19:25:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -157,13 +178,6 @@
   
   <url>
     <loc>https://mcx797.github.io/post/kaoyan/math/%E5%BC%A0%E5%AE%8730/%E5%BC%A0%E5%AE%8730%E8%AE%B2-%E6%95%B0%E5%88%97%E6%9E%81%E9%99%90/</loc>
-    <lastmod>2021-04-15T19:25:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>2</priority>
-  </url>
-  
-  <url>
-    <loc>https://mcx797.github.io/tags/%E8%80%83%E7%A0%94/</loc>
     <lastmod>2021-04-15T19:25:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>2</priority>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>线代 on Even - A super concise theme for Hugo</title>
+    <link>https://mcx797.github.io/tags/%E7%BA%BF%E4%BB%A3/</link>
+    <description>Recent content in 线代 on Even - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 19 Apr 2021 20:24:30 +0800</lastBuildDate><atom:link href="https://mcx797.github.io/tags/%E7%BA%BF%E4%BB%A3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>行列式</title>
+      <link>https://mcx797.github.io/post/kaoyan/math/%E6%9D%8E%E6%B0%B8%E4%B9%90%E5%9F%BA%E7%A1%80/%E8%A1%8C%E5%88%97%E5%BC%8F/</link>
+      <pubDate>Mon, 19 Apr 2021 20:24:30 +0800</pubDate>
+      
+      <guid>https://mcx797.github.io/post/kaoyan/math/%E6%9D%8E%E6%B0%B8%E4%B9%90%E5%9F%BA%E7%A1%80/%E8%A1%8C%E5%88%97%E5%BC%8F/</guid>
+      <description>总纲 行列式 矩阵 向量 方程组 特征值 二次型 行列式的概念 二，三阶行列式 $$ \begin{cases} \begin{aligned} a_1x + b_1 y = c_1\ a_2x + b_2 y = x_2 \end{aligned} \end{cases} $$ 研究二元一次方程组的求解： $$ (a_1b_2 - a_2 b_1)x = c_1b_2 -</description>
+    </item>
+    
+  </channel>
+</rss>
