@@ -49,7 +49,7 @@
 <meta itemprop="name" content="张宇30讲-数列极限">
 <meta itemprop="description" content="引言 极限：无限趋近的过程 $ x_n = \frac{n}{n&#43;1}, n = 1, 2, 3,\cdots​$ 数学语言： \( 证明\lim_{n\rightarrow&#43;\infty} \frac{n}{n &#43; 1} = 1, n"><meta itemprop="datePublished" content="2021-04-15T19:25:00&#43;08:00" />
 <meta itemprop="dateModified" content="2021-04-15T19:25:00&#43;08:00" />
-<meta itemprop="wordCount" content="1417">
+<meta itemprop="wordCount" content="1878">
 <meta itemprop="keywords" content="考研,math,张宇30讲," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="张宇30讲-数列极限"/>
 <meta name="twitter:description" content="引言 极限：无限趋近的过程 $ x_n = \frac{n}{n&#43;1}, n = 1, 2, 3,\cdots​$ 数学语言： \( 证明\lim_{n\rightarrow&#43;\infty} \frac{n}{n &#43; 1} = 1, n"/>
@@ -345,7 +345,76 @@ $$
 \lim_{n\rightarrow\infty}(\frac{1}{\sqrt{n^2 + 1}} + \frac{1}{\sqrt{n^2 + 2}} + \cdots + \frac{1}{\sqrt{n^2 + n}})
 \)</span></p>
 
+<h2 id="习题123">习题1.2.3</h2>
+
+<p>求
+<span  class="math">\(
+\lim_{n \rightarrow \infty}(\sum_{n= 1}^n\frac{i}{n^2 + n + i})
+\)</span>
+只动分母，不动分子</p>
+
+<p>先看分母的最小值和最大值能不能满足需求</p>
+
 <h1 id="单调有界准则">单调有界准则（***）</h1>
+
+<h2 id="定义压轴题考点">定义（压轴题考点）</h2>
+
+<p>单调有界数列必有极限，即若数列${x<em>n}$单调增加（减少），且有上界（下界），则$lim</em>{n\rightarrow\infty}x_n​$存在</p>
+
+<p>维尔斯特拉斯</p>
+
+<p>证明单调两种方法：
+<span  class="math">\(
+\begin{cases}
+\begin{aligned}
+x_{n + 1} - x_n\\
+\frac{x_{n + 1}}{x_n}
+\end{aligned}
+\end{cases}
+\)</span></p>
+
+<p>上界，下界</p>
+
+<p>$x_n \le M$</p>
+
+<p>不等关系证明：难点</p>
+
+<h2 id="例题">例题</h2>
+
+<p>设数列${a_n}$满足$a<em>1 = a(a&gt;0),a</em>{n+1} = \frac{1}{2}(a_n + \frac{2}{a<em>n})$,证明$\lim</em>{n\rightarrow\infty}a_n$存在，并求其值</p>
+
+<p>递推式的形式</p>
+
+<p>见到递推式，一般考虑用单调有界准则</p>
+
+<p>证明有极限后，递推式极限好求</p>
+
+<p>解题信号 Exceptions can be found to any rule
+<span  class="math">\(
+\sqrt{ab} \le \frac{a + b}{2}
+\)</span></p>
+
+<h2 id="例题2">例题2</h2>
+
+<p>设数列${x_n}$满足$0&lt;x<em>1&lt;\pi, x</em>{n+1}=sin(x<em>n)(n=1, 2, \cdots)$, 证明$\lim</em>{n\rightarrow\infty}$存在，并求其极限。（真题）</p>
+
+<p>常用不等式：$sinx &lt; x\ \ (x &gt; 0)$</p>
+
+<p>​           $e^x \ge x + 1$</p>
+
+<p>​           $x - 1 \ge lnx$</p>
+
+<h2 id="例题3">例题3</h2>
+
+<p>$a_n = \frac{1}{1^2}+ \frac{1}{2^2} + \cdots + \frac{1}{n^2} $收敛</p>
+
+<p>$\frac{1}{n(n-1)} = \frac{1}{n-1} - \frac{1}{n}$</p>
+
+<p>用到的数字：1.题目中出现的（最大，最小）</p>
+
+<p>​                       2.1</p>
+
+<p>​                       3.0（无中生有，添项）</p>
 
     </div>
 
