@@ -19,3 +19,19 @@ L  :loss function   $\theta$:parameters
 
 
 
+### 2 variables
+
+Suppose that $\theta$has two variables $\{\theta_1, \theta_2\}$
+
+Randomly start at $\theta^0 = \left\begin{matrix}\end{matrix}\right$
+
+
+$$
+\begin{matrix}
+\theta_1 \theta_2
+\end{matrix}
+$$
+
+
+
+

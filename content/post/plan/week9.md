@@ -27,3 +27,17 @@ draft: fault
 3.英语
 
 4.数列
+
+
+
+## 4.20
+
+1.重构issue部分，database部分
+
+2.pmd with java
+
+3.英语
+
+4.张宇数列完成
+
+5.李永乐行列式开始
