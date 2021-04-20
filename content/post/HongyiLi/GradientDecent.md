@@ -23,13 +23,13 @@ L  :loss function   $\theta$:parameters
 
 Suppose that $\theta$has two variables $\{\theta_1, \theta_2\}$
 
-Randomly start at $\theta^0 = \left\begin{matrix}\end{matrix}\right$
+Randomly start at $\theta^0 = \left[\begin{matrix}\theta_1^0 \\ \theta_2^0\end{matrix}\right]$
 
 
 $$
-\begin{matrix}
-\theta_1 \theta_2
-\end{matrix}
+\left[\begin{matrix}
+\theta_1^1 \\ \theta_2^1
+\end{matrix}\right] =\left[\begin{matrix}\theta_1^0 \\ \theta_2^0\end{matrix}\right] - \eta
 $$
 
 
