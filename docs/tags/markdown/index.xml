@@ -9,10 +9,10 @@
     <lastBuildDate>Fri, 16 Apr 2021 20:03:59 +0800</lastBuildDate><atom:link href="https://mcx797.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Formular</title>
-      <link>https://mcx797.github.io/post/markdown/formular/</link>
+      <link>https://mcx797.github.io/post/markdown/</link>
       <pubDate>Fri, 16 Apr 2021 20:03:59 +0800</pubDate>
       
-      <guid>https://mcx797.github.io/post/markdown/formular/</guid>
+      <guid>https://mcx797.github.io/post/markdown/</guid>
       <description>数学常用 写法 效果 \vert $ \vert$ \x_n $x_n$ \frac{1}{2} $\frac{1}{2}$ \cdots $\cdots$ \forall $\forall$ \lim $\lim$ \rightarrow $\rightarrow$ \infty $\infty$ \\ 换行 \iff $\iff$ \in $\in $ \notin $\notin$ \le $\le$ \ge $\ge$ \sum_{n=1}^na_n $\sum_{n=1}^na_i$ \sqrt{2} $\sqrt{2}$ 希腊字母 方程组 1 2 3 4 5 6 \begin{cases} \begin{aligned} x + 2y &amp;amp;= 1\\\ 3x - y &amp;amp;= 5 \end{aligned} \end{cases}</description>
     </item>
     
