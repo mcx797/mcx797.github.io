@@ -6,7 +6,7 @@
     <description>Recent content on Even - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Apr 2021 20:24:30 +0800</lastBuildDate><atom:link href="https://mcx797.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Apr 2021 10:00:03 +0800</lastBuildDate><atom:link href="https://mcx797.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://mcx797.github.io/about/</link>
@@ -16,6 +16,15 @@
       <description>Hugo is a static site engine written in Go.
 It makes use of a variety of open source projects including:
  Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.</description>
+    </item>
+    
+    <item>
+      <title>随机事件</title>
+      <link>https://mcx797.github.io/post/kaoyan/math/%E6%96%B9%E6%B5%A9%E6%A6%82%E7%8E%87/%E9%9A%8F%E6%9C%BA%E4%BA%8B%E4%BB%B6/</link>
+      <pubDate>Fri, 23 Apr 2021 10:00:03 +0800</pubDate>
+      
+      <guid>https://mcx797.github.io/post/kaoyan/math/%E6%96%B9%E6%B5%A9%E6%A6%82%E7%8E%87/%E9%9A%8F%E6%9C%BA%E4%BA%8B%E4%BB%B6/</guid>
+      <description>​ 第一讲：随机事件与概率 1.1 随机试验，样本与随机事件 1.1.1 随机试验</description>
     </item>
     
     <item>
